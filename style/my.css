@@ -299,6 +299,18 @@ p {
 #main__partbutton > p {
   font-size: 2rem;
 }
+@media (max-width: 550px){
+  #main__partbutton > p {
+    font-size: 1.5rem;
+  }
+
+}
+@media (max-width: 280px){
+  #main__partbutton > p {
+    font-size: 0.8rem;
+  }
+
+}
 #main__partbutton > div {
   width: 100%;
   display: flex;
